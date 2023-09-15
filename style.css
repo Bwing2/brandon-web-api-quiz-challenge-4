@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+input {
+    height: 30px;
+    margin-left: 10px;
+}
+
+button, .quiz-button {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+.highscore{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.time {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+}
+
+.card {
+    width: 80%;
+    height: 500px;
+    margin:  200px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    flex-direction: column;
+    background-color: green;
+}
+
+.quiz-heading, .quiz-body {
+    margin-bottom: 20px
+}
+
+.hide {
+    display: none;
+}
+
+#submit {
+    width: 20%;
+}
+
+.feedback {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Brandon Web Api Quiz</title>
+  </head>
+  <body>
+    <main>
+      <section class="highscore">
+        <a href="scores.html" id="high-scores"><h2>View high scores</h2></a>
+      </section>
+      <section class="time">
+        <h2 id="timer">Timer:</h2>
+      </section>
+      <section class="instructionsContainer">
+        <div class="card">
+          <div class="quiz-heading">
+            <h1>Coding Quiz Challenge</h1>
+          </div>
+          <div class="quiz-body">
+            <h3>
+              Answer all of the following questions within the time limit.
+            </h3>
+            <h3>
+              All incorrect answers will subtract 10 seconds from the time
+              remaining.
+            </h3>
+          </div>
+          <div class="start">
+            <button id="startBtn">Click here to start the quiz!</button>
+          </div>
+        </div>
+      </section>
+      <main class="quizSection">
+        <section class="questionsContainer hide" id="question1">
+          <div class="card">
+            <h1 id="question-text">What color is the sky?</h1>
+            <div class="question-list">
+              <button class="quiz-button">Red</button>
+              <button class="quiz-button">Green</button>
+              <button class="quiz-button correct">Blue</button>
+              <button class="quiz-button">Yellow</button>
+            </div>
+          </div>
+        </section>
+        <section class="questionsContainer hide" id="question2">
+          <div class="card">
+            <h1 id="question-text">What color is the ocean?</h1>
+            <div class="question-list">
+              <button class="quiz-button">Green</button>
+              <button class="quiz-button">Red</button>
+              <button class="quiz-button correct">Blue</button>
+              <button class="quiz-button">Yellow</button>
+            </div>
+          </div>
+        </section>
+        <section class="questionsContainer hide" id="question3">
+          <div class="card">
+            <h1 id="question-text">What color is the grass?</h1>
+            <div class="question-list">
+              <button class="quiz-button correct">Green</button>
+              <button class="quiz-button">Red</button>
+              <button class="quiz-button">Blue</button>
+              <button class="quiz-button">Yellow</button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <section class="endScreen card hide" id="endScreen">
+        <h1>All done!</h1>
+        <h2>Your final score is: <span id="score"></span></h2>
+        <h2>
+          Enter your name to record your highscore.<input
+            type="text"
+            id="name"
+          /><button id="submit">Submit</button>
+        </h2>
+      </section>
+    </main>
+
+    <section class="feedback">
+      <div class="hide" id="correct">
+        <h1>Correct!</h1>
+      </div>
+      <div class="hide" id="incorrect">
+        <h1>Incorrect!</h1>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
