@@ -14,12 +14,12 @@ var submit = document.querySelector("#submit");
 
 // Question list variables
 var currentQuestion = 1;
-var totalNumberQuestions = 3;
+var totalNumberQuestions = 10;
 
 var score = 0;
 
 // Timer variables
-var secondsLeft = 5;
+var secondsLeft = 100;
 var timerInterval;
 
 // Local storage variable
