@@ -115,7 +115,7 @@ submit.addEventListener("click", function (event) {
   };
 
   // References local storage, and if there is not any savedInfo, it creates a new array.
-  //Otherwise it stores submitted data into an object.
+  // Otherwise it stores submitted data into an object.
   savedInfo = localStorage.getItem("savedInfo");
   if (savedInfo) {
     savedInfo = JSON.parse(savedInfo);

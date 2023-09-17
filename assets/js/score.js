@@ -13,5 +13,5 @@ for (var i = 0; i < savedInfo.length; i++) {
   var scoreRow = document.createElement("tr");
   scoreRow.innerHTML =
     "<td>" + currentScore.name + "</td> <td>" + currentScore.score + "</td>";
-  document.getElementById("scoreList").appendChild(scoreRow);
+  document.querySelector("#scoreList").appendChild(scoreRow);
 }

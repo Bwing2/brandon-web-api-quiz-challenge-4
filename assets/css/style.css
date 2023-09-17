@@ -4,8 +4,17 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 h1 {
-    font-size: 200%;
+    font-size: 250%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 input {
@@ -13,18 +22,30 @@ input {
     margin-left: 10px;
 }
 
-button, .quiz-button {
+button {
     width: 100%;
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    font-size: 200%;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    color: white;
 }
 
-
+button:hover {
+    background-color: rgb(50, 131, 50);
+}
 
 .highscore{
     position: absolute;
     top: 25px;
     left: 25px;
+}
+
+#high-scores:hover {
+    color: green;
 }
 
 .time {
@@ -35,18 +56,17 @@ button, .quiz-button {
 
 .card {
     width: 80%;
-    height: 500px;
+    height: 400px;
     margin:  200px auto 0px auto;
     display: flex;
     justify-content: center;
     align-items:center;
     text-align: center;
-    flex-direction: column;
-    background-color: green;
+    flex-direction: column
 }
 
-.quiz-heading, .quiz-body {
-    margin-bottom: 20px
+.quiz-heading, .quiz-body, .question-text {
+    margin-bottom: 10px;
 }
 
 .hide {
@@ -55,6 +75,7 @@ button, .quiz-button {
 
 #submit {
     width: 20%;
+    margin-left: 40%;
 }
 
 .feedback {
@@ -62,4 +83,32 @@ button, .quiz-button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#scoreTitle {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+#scoreList, td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid green;
+    font-size: 50px;
+}
+
+.scoreButtonContainer {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-button {
+    width: 20%;
+}
+
+.score-button a {
+    color: white;
 }
