@@ -1,3 +1,5 @@
+var clearBtn = document.querySelector("#clearBtn");
+
 // References local storage, and if there is not any savedInfo, it creates a new array.
 //Otherwise it stores submitted data into an object.
 var savedInfo = localStorage.getItem("savedInfo");
@@ -15,3 +17,10 @@ for (var i = 0; i < savedInfo.length; i++) {
     "<td>" + currentScore.name + "</td> <td>" + currentScore.score + "</td>";
   document.querySelector("#scoreList").appendChild(scoreRow);
 }
+
+// Clears local storage, and reloads the page.
+clearBtn.addEventListener("click", function (event) {
+  event.preventDefault;
+  localStorage.clear();
+  location.reload();
+});

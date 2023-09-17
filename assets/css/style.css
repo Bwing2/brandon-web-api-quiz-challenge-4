@@ -9,7 +9,11 @@ body {
 }
 
 h1 {
-    font-size: 250%;
+    font-size: 225%;
+}
+
+h1, h2, h3 {
+    margin-bottom: 25px;
 }
 
 a {
@@ -76,10 +80,12 @@ button:hover {
 #submit {
     width: 20%;
     margin-left: 40%;
+    margin-top: 15px;
 }
 
 .feedback {
-    position: relative;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,12 +97,16 @@ button:hover {
     margin: 25px;
 }
 
-#scoreList, td {
+#scoreList, td, th {
+    padding: 10px;
+    font-size: 50px;
     margin-left: auto;
     margin-right: auto;
+    border-collapse: collapse;
     border: 2px solid green;
-    font-size: 50px;
 }
+
+
 
 .scoreButtonContainer {
     margin-top: 25px;
