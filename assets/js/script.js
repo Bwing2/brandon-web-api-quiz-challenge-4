@@ -66,7 +66,7 @@ quizBtn.forEach(function (button) {
     } else {
       correctEl.style.display = "none";
       incorrectEl.style.display = "block";
-      secondsLeft -= 5;
+      secondsLeft -= 10;
     }
 
     // Goes to next question after 1 second delay, adding +1 to currentQuestion.
