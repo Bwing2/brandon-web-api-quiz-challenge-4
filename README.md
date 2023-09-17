@@ -1,6 +1,6 @@
 # Brandon Web API Quiz Challenge 4
 
-[Live deploy link]()
+[Live deploy link](https://bwing2.github.io/brandon-web-api-quiz-challenge-4/)
 
 ## Description
 
@@ -27,3 +27,39 @@ This week's challenge was to create a Javascript quiz completely from scratch, u
 6. The user can then enter their name or initials and click submit.
 7. The user will be redirected to another webpage that displays all current highscores.
 8. The highscore page also displays buttons to remove all highscores, or go back to the quiz homepage.
+
+### Quiz Home Page
+
+![Quiz Home Page](assets/images/quiz-home-page.png)
+
+### Correct Answer
+
+![Quiz Correct Answer](assets/images/quiz-correct-answer.png)
+
+### Incorrect Answer
+
+![Quiz Incorrect Answers](assets/images/quiz-incorrect-answer.png)
+
+### End Screen
+
+![End Screen](assets/images/quiz-end-screen.png)
+
+### Ran Out of Time End Screen
+
+![Ran Out of Time End Screen](assets/images/quiz-ran-out-of-time.png)
+
+### High Scores Page
+
+![High Scores Page](assets/images/quiz-high-scores-page.png)
+
+## License
+
+MIT License
+
+Copyright (c) 2023 Brandon Wing
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
