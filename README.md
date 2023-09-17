@@ -4,7 +4,7 @@
 
 ## Description
 
-This week's challenge was to create a Javascript quiz completely from scratch, using everything I have learned from HTMl, CSS, and JavaScript. This was the most challenging project I have done, as there was so many different factors that went into making everything work correctly. The hardest part was figuring out how to save user data in the local storage. Another big challenge was figuring out how to incorporate all of the timing related elements, including setTimeout, setInterval, and clearInterval to have a responsive user experience. I learned a lot from this project, especially the importance of understanding the DOM to target different elements on a webpage.
+This week's challenge was to create a Javascript quiz completely from scratch, using everything I have learned from HTML, CSS, and JavaScript. This was the most challenging project I have done so far, as there was so many different factors that went into making everything work correctly. The hardest part was figuring out how to save user data in the local storage. Another big challenge was figuring out how to incorporate all of the timing related elements, including setTimeout, setInterval, and clearInterval to have a responsive user experience. I learned a lot from this project, especially the importance of understanding the DOM to target different elements on a webpage.
 
 ## Installation
 
